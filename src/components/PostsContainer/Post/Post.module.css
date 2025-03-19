@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.midsection {
+  display: flex;
+  flex-direction: row;
+}
+
+.meta {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 0;
+  border: 1px solid black;
+}
+
+.content {
+  flex-grow: 1;
+  text-align: start;
+  padding: 5px;
+}
